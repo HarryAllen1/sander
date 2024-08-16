@@ -22,7 +22,7 @@ export function symlink () {
 							}
 						});
 					})
-					.catch( reject )
+					.catch( reject );
 			});
 		}
 	};
